@@ -256,3 +256,113 @@ a:focus, button:focus, .btn:focus,
 	text-transform: uppercase;
 	font-size: 18px;
 }
+
+.tr-options li:before {
+	position: absolute;
+	content: "\f105";
+	font-family: fontAwesome ;
+	right: 30px;
+	top: 50%;
+	font-size: 24px;	
+	margin-top: -18px;
+	z-index: 999;
+}
+
+.tr-options li:hover:before{
+	right: 25px;
+}
+
+.sub-menu {
+	position: absolute;
+	top: 100%;
+	left: -100%;
+	width: 100%;
+	z-index: 999;
+	background-color: #fff;
+	border-top: 1px solid #ebebeb;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	-moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	-ms-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	-o-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.dropdown:hover>.sub-menu {
+	left: 0;
+	z-index: 9999999999;
+}
+
+.sub-menu li a {
+	font-size: 16px;
+	display: block;
+}
+
+.tr-options {
+	margin-top: 130px;
+}
+
+.tr-options input[type="text"] {
+	background-image: url(../images/search.png);
+	width: 100%;
+	position: relative;
+	text-transform: uppercase;	
+	font-size: 18px;
+}
+
+.tr-options input[type="text"]:focus {
+	border: none;
+}
+
+.tr-options input[type="text"]:before {
+	content:"\f105";
+	position: absolute;
+	right: 0;
+	top: 0;
+	width:20px;
+	height: 20px;
+	background-color: #fff;
+}
+
+.tr-options input::-webkit-input-placeholder {
+   color: #fff;
+}
+
+.tr-options input:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+.tr-options input::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+.tr-options input:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+.tr-options li:before {
+	color: #fff;
+}
+
+.tr-options li a,
+.tr-options input[type="text"] {
+	color: #fff;
+	padding: 15px 60px;
+	margin-bottom: 0;	
+}
+
+.tr-options li,
+.tr-options input[type="text"] {
+	background-repeat: no-repeat;
+	background-position: 15px, center;
+	border: 0;
+}
+
+.tr-options li:nth-child(2) {
+	background-image: url(../images/en.png);
+	background-color: #f7941d;
+}
+
+.tr-options li:nth-child(3) {
+	background-image: url(../images/careers.png);
+	background-color: #f26522;
+}
