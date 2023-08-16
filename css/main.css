@@ -162,3 +162,97 @@ a:focus, button:focus, .btn:focus,
 	text-transform: uppercase;
 	margin: 0 0 20px;
 }
+
+.page-title {
+	margin-top: 70px;
+}
+
+.page-title h1 {
+	margin: 0;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.tr-page .tr-main-wrapper {
+	padding:70px 0 90px;
+	overflow: hidden;
+}
+
+.tr-page.tr-details-page .tr-main-wrapper {
+	padding: 0;
+}
+
+.tr-page.tr-details-page .tr-right-content {
+	margin: 80px 0;
+}
+
+.tr-before {
+	position: relative;
+	z-index: 1;
+}
+
+.tr-before:before {
+	position: absolute;
+	content: "";
+	top: -100%;
+	right: 15px;
+	width: 1000%;
+	height: 10000%;
+	background-color: #f9f9f9;
+	z-index: -1;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+/* ==========================================================================
+ 	Tr Menu
+ ========================================================================== */ 
+
+.slide-menu {
+	position:fixed;
+	z-index:9999999;
+	top: 0;
+	display: block;
+	overflow: hidden;
+}
+
+.slide-menu li {
+	float: left;
+}
+
+.slide-menu li a {
+	padding: 15px 25px;
+	font-size: 16px;
+}
+
+.tr-menu li a,
+.slide-menu li a {
+	color:#000;
+	text-transform: uppercase;
+	display: block;
+	color: #000;	
+}
+
+.tr-menu li a {
+	padding: 15px;
+	font-size: 18px;
+}
+
+.tr-menu li.active a, 
+.tr-menu .back a, 
+.tr-menu #menu {
+	display:block;
+}
+ 
+.tr-menu li {
+	position: relative;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.tr-options li {
+	position: relative;
+	text-transform: uppercase;
+	font-size: 18px;
+}
