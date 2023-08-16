@@ -12,3 +12,56 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:normal;
 	font-weight: 700;
 }
+
+.tr-sidebar ul,
+.tr-list {
+	margin:0;
+	padding:0;
+    list-style:none;
+}
+
+a, a:hover, a:active,
+a:focus, button:focus, .btn:focus,
+.form-control:focus, button {
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
+
+.form-control {
+	height: 55px;
+	margin-bottom: 30px;
+	box-shadow: none;
+	border-radius: 0;
+	padding: 20px;
+	border: 1px solid #ececec;
+	font-family: 'Open Sans', sans-serif;		
+}
+
+.tr-homepage .form-control:focus {
+	padding: 15px 20px;
+}
+
+.tr-homepage .title h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin: 0 0;
+}
+
+.section-info h2 {
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-top: 12px;
+	margin-bottom: 20px;	
+}
+
+.image-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;	
+}
