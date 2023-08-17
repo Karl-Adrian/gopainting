@@ -1383,3 +1383,206 @@ span.title {
 .contact-content .btn.btn-primary {
 	margin-top: 30px;
 }
+
+
+/* ==========================================================================
+ 	Footer Section
+ ========================================================================== */
+
+ .footer-section {
+	background-image: url(../images/bg/footer-one.jpg);
+	color: #000;
+	background-color: #ffd200;
+	background-repeat: repeat;
+	padding: 70px 0 50px;
+	overflow: hidden;
+}
+
+.footer-widget {
+	margin-bottom: 30px;
+}
+
+.footer-widget img {
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.footer-widget h3 {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+.footer-widget a {
+	font-size: 14px;
+	color: #000;
+}
+
+.footer-widget a:hover {
+	color: #fff;
+}
+
+.footer-widget li {
+	margin-bottom: 8px;
+}
+
+.footer-widget li a {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+/* typography */
+
+
+.typography h1 {
+	text-align: center;
+	margin-bottom: 75px;
+	font-size: 72px;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+.icons li {
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.icons i {
+	font-size: 50px;
+}
+
+
+.typography .button li {
+	margin-bottom: 30px;
+}
+
+.typography .button li+li {
+	margin-left: 35px;
+}
+
+.typography .btn.btn-3 {
+	border-radius: 10px;
+}
+
+.typography .btn.btn-4 {
+	border-radius: 50px;
+}
+
+.color {
+	width:165px;
+	height: 165px;
+}
+
+.color-section li {
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.color-1 {
+	background-color: #ffd200;
+}
+
+.color-2 {
+	background-color: #f26522;
+}
+
+.color-3 {
+	background-color: #00aeef;
+}
+
+.color-4 {
+	background-color: #8dc63f;
+}
+
+.color-5 {
+	background-color: #8781bd;
+}
+
+.color-6 {
+	background-color: #c69c6d;
+}
+
+.color-7 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd200+0,ffd200+49,ebc000+50,ebc000+100 */
+	background: #ffd200; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ffd200 0%, #ffd200 49%, #ebc000 50%, #ebc000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #ffd200 0%,#ffd200 49%,#ebc000 50%,#ebc000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #ffd200 0%,#ffd200 49%,#ebc000 50%,#ebc000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd200', endColorstr='#ebc000',GradientType=1 ); /* IE6-9 */
+
+}
+
+.color-8 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f26522+0,f26522+49,db5a1f+50,db5a1f+100 */
+	background: #f26522; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f26522 0%, #f26522 49%, #db5a1f 50%, #db5a1f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #f26522 0%,#f26522 49%,#db5a1f 50%,#db5a1f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #f26522 0%,#f26522 49%,#db5a1f 50%,#db5a1f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f26522', endColorstr='#db5a1f',GradientType=1 ); /* IE6-9 */
+
+}
+
+.color-9 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00aeef+0,00aeef+49,009bd4+50,009bd4+100 */
+	background: #00aeef; /* Old browsers */
+	background: -moz-linear-gradient(left,  #00aeef 0%, #00aeef 49%, #009bd4 50%, #009bd4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #00aeef 0%,#00aeef 49%,#009bd4 50%,#009bd4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #00aeef 0%,#00aeef 49%,#009bd4 50%,#009bd4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00aeef', endColorstr='#009bd4',GradientType=1 ); /* IE6-9 */
+}
+
+.color-10 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8dc63f+0,8dc63f+49,7aab37+50,7aab37+100 */
+	background: #8dc63f; /* Old browsers */
+	background: -moz-linear-gradient(left,  #8dc63f 0%, #8dc63f 49%, #7aab37 50%, #7aab37 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #8dc63f 0%,#8dc63f 49%,#7aab37 50%,#7aab37 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #8dc63f 0%,#8dc63f 49%,#7aab37 50%,#7aab37 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8dc63f', endColorstr='#7aab37',GradientType=1 ); /* IE6-9 */
+}
+
+.color-11 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8781bd+0,8781bd+49,726da1+50,726da1+100 */
+	background: #8781bd; /* Old browsers */
+	background: -moz-linear-gradient(left,  #8781bd 0%, #8781bd 49%, #726da1 50%, #726da1 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #8781bd 0%,#8781bd 49%,#726da1 50%,#726da1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #8781bd 0%,#8781bd 49%,#726da1 50%,#726da1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8781bd', endColorstr='#726da1',GradientType=1 ); /* IE6-9 */
+
+}
+
+.color-12 {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c69c6d+0,c69c6d+49,ab875e+50,ab875e+100 */
+	background: #c69c6d; /* Old browsers */
+	background: -moz-linear-gradient(left,  #c69c6d 0%, #c69c6d 49%, #ab875e 50%, #ab875e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #c69c6d 0%,#c69c6d 49%,#ab875e 50%,#ab875e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #c69c6d 0%,#c69c6d 49%,#ab875e 50%,#ab875e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c69c6d', endColorstr='#ab875e',GradientType=1 ); /* IE6-9 */
+
+}
+
+  /* ==========================================================================
+ 	Extra
+ ========================================================================== */
+
+input, .portfolio-overlay,
+.portfolio-item:before, .team-overlay,
+.service h3, .service img, .category,
+.owl-next, .owl-prev, .tr-nav,
+.service, .menu li, .tr-menu li, 
+.tr-list-menu i, .tr-options li:before, 
+.btn-primary:before, .tr-menu li i,
+.tr-post img, .carousel-fade, 
+.cbp-filter-item, .sub-menu, .entry-meta a,
+.entry-title a, .footer-section a,
+.summary span a, .video-link,
+.slide-menu a, .form-control,
+.btn.btn-default i, .tr-contact-section a,
+.contact-content address a,
+.tr-page .tr-list-menu li a,
+.btn.btn-primary i {
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	-ms-transition: all 500ms;
+	-o-transition: all 500ms;
+	transition: all 500ms;
+}
