@@ -366,3 +366,95 @@ a:focus, button:focus, .btn:focus,
 	background-image: url(../images/careers.png);
 	background-color: #f26522;
 }
+
+.tr-feed {
+	color: #fff;
+	position: absolute;
+	top: 35px;
+	right: 45px;
+	z-index: 99999999;
+}
+
+.tr-feed li {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.tr-feed a {
+	color: #fff;
+	font-size: 24px;
+}
+
+.item-grid-2 .tr-feed {
+	color: #000;
+}
+
+.fa-facebook:hover,
+.item-grid-2 .fa-facebook {
+	color: #4460A0;
+}
+
+.fa-twitter:hover,
+.item-grid-2 .fa-twitter {
+	color: #5AA8DF;
+}
+
+.fa-google-plus:hover,
+.item-grid-2 .fa-google-plus {
+	color: #DF4A33;
+}
+
+.fa-dribbble:hover {
+	color: #EB4888;
+}
+
+.fa-pinterest-p:hover {
+	color: #CF1913;
+}
+
+.tr-logo {
+	margin-bottom: 45px;
+}
+
+.tr-logo img {
+	display: inline-block;
+}
+
+.home-content>span.bg-color {
+	background-color: #e1e0df;
+    padding: 3px 10px;
+	text-transform: uppercase;
+	color: #6b645d;
+    font-size: 24px;
+    font-weight: 800;	  
+    display: inline-block;
+    margin-bottom: 5px;  	
+}
+
+.home-content h1 {
+	font-size: 80px;
+	font-weight: 800;
+	margin:0 0 50px;
+	text-transform: uppercase;
+	line-height: 76px;
+	color: #fff;
+}
+
+.home-content .btn.btn-primary {
+	font-size: 18px;
+	margin-bottom: 20px;
+} 
+
+.video-link  {
+	border: 0;
+	font-weight: 600;
+	color: #fff;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+
+.video-link i {
+	margin-right: 10px;
+	font-size: 20px;
+}
