@@ -473,7 +473,7 @@ a:focus, button:focus, .btn:focus,
 }
 
 .item .overlay {
-	background-color: #0187FF;
+	background-color: #353535;
 }
 
 .item.item-overlay-color .overlay {
@@ -556,7 +556,7 @@ a:focus, button:focus, .btn:focus,
 /* Tr Service */
 
 .tr-service {
-	color: #fff;
+	color: #7ab700;
 	font-size: 24px;
 	line-height: 36px;
 }
