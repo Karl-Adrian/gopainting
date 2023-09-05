@@ -580,15 +580,9 @@ button {
 /* Tr About */
 
 .homepage-1 .tr-about {
-<<<<<<< HEAD
-	color: #7ab700;
-	background-image: url(../images/bg/3.jpg); 
-	background-color: rgba(0, 0, 0, 0.54);
-=======
   color: #fff;
   background-image: url(../images/bg/3.jpg);
   background-color: rgba(0, 0, 0, 0.54);
->>>>>>> 351e3a536d704b3256eb12078d07e424be4b40c6
 }
 
 .homepage-2 .tr-about,
@@ -660,7 +654,7 @@ button {
 }
 
 .homepage-2 .btn-default:hover {
-  color: #ffd200;
+  color: #7ab700;
 }
 
 .homepage-2 .tr-about.tr-after:before {
@@ -670,19 +664,16 @@ button {
 /* Tr Team */
 
 .tr-team {
-<<<<<<< HEAD
 	background-image: url(../images/bg/4.jpg);
 	background-color: rgba(0, 0, 0, 0.1);
 	font-size: 24px;
 	color: #7ab700;
 	overflow: hidden;
-=======
   background-image: url(../images/bg/4.jpg);
   background-color: rgba(0, 0, 0, 0.1);
   font-size: 24px;
   color: #fff;
   overflow: hidden;
->>>>>>> 351e3a536d704b3256eb12078d07e424be4b40c6
 }
 
 .tr-team .section-title {
@@ -1625,4 +1616,12 @@ input,
   -ms-transition: all 500ms;
   -o-transition: all 500ms;
   transition: all 500ms;
+}
+
+
+/* Style for the logo */
+.logo img {
+  width: 60px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+
 }
