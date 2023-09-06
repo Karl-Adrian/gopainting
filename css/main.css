@@ -227,7 +227,7 @@ button {
   top: 0;
   width: 100%;
   z-index: 1000; /* High z-index to make sure it stays on top of other elements */
-  background-color: #fff;
+  background-color: #d3d3d3;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
 
@@ -1621,7 +1621,7 @@ input,
 
 /* Style for the logo */
 .logo img {
-  width: 60px; /* Adjust the width as needed */
+  width: 70px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
 
 }
