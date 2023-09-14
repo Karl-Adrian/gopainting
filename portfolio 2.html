@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Theme Region">
+        <meta name="description" content="">
+
+        <title>Go Painting Co</title>
+
+        <!-- CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/slick.css">            
+        <link rel="stylesheet" href="css/sidr.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">            
+        <link rel="stylesheet" href="css/cubeportfolio.min.css">            
+        <link rel="stylesheet" href="css/animate.css">            
+        <link rel="stylesheet" href="css/main.css">   
+        <link id="preset" rel="stylesheet" href="css/presets/preset1.css">      
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <!-- font -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- icons -->
+        <link rel="icon" href="images/ico/favicon.ico"> 
+        <link rel="apple-touch-icon" sizes="144x144" href="../images/ico/apple-touch-icon-144.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../images/ico/apple-touch-icon-114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../images/ico/apple-touch-icon-72.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="../images/ico/apple-touch-icon-57.png">
+    </head>
+
+    <body class="tr-page">
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+
+        <!-- Top Navigation Bar -->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!--<a class="navbar-brand" href="#">Go Painting</a>-->
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/GoPainting-Logo (1).png" alt="Go Painting">
+            </a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <!--<li><a href="#tr-service">Service</a></li>-->
+          <!--<li><a href="portfolio.html">Gallery</a></li>
+          <li><a href="#tr-about">About</a></li>
+          <li><a href="#tr-team">Team</a></li>-->
+          <li><a href="blog.html">Blog</a></li>
+          <!-- ... Add other main menu items here ... -->
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="portfolio.html">Gallery</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="portfolio-details.html">Portfolio Details</a></li>
+              <li><a href="blog-details.html">Blog Details</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="typography.html">Typography</a></li>
+              <!-- ... Add other sub-menu items here ... -->
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+        <!--<div class="tr-sidebar">
+            <ul class="slide-menu">
+                <li><a id="menu" href="#sidr">menu</a></li>
+                <li class="active"><a href="#">Projects</a></li>
+            </ul>
+            <div id="sidr">
+                <div class="tr-menu">
+                    <ul>
+                        <li class="dropdown"><a href="index.html">Home<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="index.html">Home Version-1<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                <li><a href="index1.html">Home Version-2<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                            </ul>                           
+                        </li>
+                        <li><a href="index.html#tr-service">Service<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                        <li><a href="index.html#tr-portfolio">Portflio<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                        <li><a href="index.html#tr-about">About<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                        <li><a href="index.html#tr-team">Team<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                        <li><a href="index.html#tr-blog">Blog<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </li>
+                        <li><a href="index.html#tr-pricing">Price & plan<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                        <li><a href="index.html#tr-contact">contact us<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                        <li class="dropdown current"><a href="#">Pages<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <ul class="sub-menu">
+                                <li class="current"><a href="portfolio.html">Projects<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                <li><a href="blog.html">Blog<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                <li><a href="portfolio-details.html">Portfolio Details<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                <li><a href="blog-details.html">Blog Details<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                <li><a href="contact.html">Contact<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                                <li><a href="typography.html">Typography<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </li>                       
+                    </ul>   
+                </div>/.tr-menu 
+                <div class="tr-options">
+                    <ul>
+                        <li>
+                            <form action="#">
+                                <input type="text" class="form-control" required="required" placeholder="Search">
+                            </form>                         
+                        </li>
+                        <li><a href="#">En</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>   
+                </div>                    
+            </div> /.sidr -->           
+        </div><!-- /.tr-sidebar --> 
+
+        <!--<div class="tr-main-wrapper">
+            <div class="portfoli">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-3 tr-sticky tr-before">
+                            <div class="theiaStickySidebar">
+                                <div class="tr-left-contant">
+                                    <div class="page-title">
+                                        <h1>Projects</h1>
+                                    </div>
+                                    <h2>See our latest work</h2>
+                                    <ul class="tr-list-menu tr-list" id="portfolio-menu">
+                                        <li data-filter="*" class="cbp-filter-item cbp-filter-item-active">Interior<i class="fa fa-angle-right" aria-hidden="true"></i></li>  
+                                        <li data-filter=".illustration" class="cbp-filter-item">Exterior<i class="fa fa-angle-right" aria-hidden="true"></i></li>  
+                                        <li data-filter=".animation" class="cbp-filter-item">Special Effects<i class="fa fa-angle-right" aria-hidden="true"></i></li>  
+                                        <li data-filter=".design" class="cbp-filter-item">Microcement<i class="fa fa-angle-right" aria-hidden="true"></i></li> 
+                                        <li data-filter=".portfolio" class="cbp-filter-item">Flooring<i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                                    </ul>                                                     
+                                </div>
+                            </div>
+                        </div>-->
+
+                        <!--<div class="col-sm-8 col-md-9 tr-sticky">
+                            <div class="theiaStickySidebar">
+                              <div id="portfolio-item">
+                                    <div class="cbp-item animation portfolio">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Karen after 1.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                             
+                                    </div>
+
+                                    <div class="cbp-item portfolio design">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Karen After 2.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                              
+                                    </div>
+
+                                    <div class="cbp-item animation illustration">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Epoxy 1.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                             
+                                    </div>
+
+                                    <div class="cbp-item animation design">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Karen before 1.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                             
+                                    </div> 
+
+                                    <div class="cbp-item animation portfolio">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Epoxy 2.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                            
+                                    </div> 
+
+                                    <div class="cbp-item illustration animation">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Epoxy 4.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                        
+                                    </div> 
+
+                                    <div class="cbp-item illustration design portfolio">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Epoxy 7.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                        
+                                    </div> 
+
+                                    <div class="cbp-item illustration animation">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Epoxy 8.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                        
+                                    </div> 
+
+                                    <div class="cbp-item illustration portfolio">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Epoxy 9.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                        
+                                    </div>
+                                    
+                                    <div class="cbp-item portfolio design">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Epoxy 10.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                              
+                                    </div>
+
+                                    <div class="cbp-item portfolio design">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Epoxy 2.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                              
+                                    </div>
+
+                                    <div class="cbp-item portfolio design">
+                                        <div class="portfolio-item">
+                                            <img class="img-responsive" src="images/Epoxy 4.jpg" alt="Portfolio Image">
+                                            <div class="portfolio-overlay">
+                                                <div class="portfolio-info">
+                                                    <h2>Degital Photography</h2>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                                    <a href="portfolio-details.html" class="btn btn-default">More Detail <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>                              
+                                    </div>
+                                </div> portfolio item 
+                                <div class="tr-button">
+                                    <a href="#" class="btn btn-primary">Load More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div> row -->  
+                </div><!-- container -->
+            </div><!-- portfoli -->
+
+        </div><!-- tr-main-wrapper --> 
+
+        <div class="grid">
+            <div class="card">
+              <div class="card__content">
+                <div class="card__front">
+                  <h3 class="card__title">Interior</h3>
+                  <p class="card__subtitle"></p>
+                </div>
+        
+                <div class="card__back">
+                  <a href="interior.html">
+                    <button class="button">Learn More</button>
+                  </a>
+                  <p class="card__body">
+                 Our Best Interior finishes
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="card__content">
+                <div class="card2__front">
+                  <h3 class="card__title">Exterior</h3>
+                  <p class="card__subtitle"></p>
+                </div>
+        
+                <div class="card__back">
+                  <a href="groups.html">
+                    <button class="button">Learn More</button>
+                  </a>
+                  <p class="card__body">
+                    Our exteriror works
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="card__content">
+                <div class="card3__front">
+                  <h3 class="card__title">Microcement Finishes</h3>
+                  <p class="card__subtitle"></p>
+                </div>
+        
+                <div class="card__back">
+                  <a href="groups.html">
+                    <button class="button">Learn More</button>
+                  </a>
+                  <p class="card__body">
+                  Our Microcement Finishes
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="card__content">
+                <div class="card4__front">
+                  <h3 class="card__title">Epoxy Flooring</h3>
+                  <p class="card__subtitle"></p>
+                </div>
+        
+                <div class="card__back">
+                  <a href="flooring.html">
+                    <button class="button">Learn More</button>
+                  </a>
+                  <p class="card__body">
+                    The game simulates the infantry and combined arms warfare of World
+                    War II
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="card__content">
+                <div class="card5__front">
+                  <h3 class="card__title">Special Effects finishes</h3>
+                  <p class="card__subtitle"></p>
+                </div>
+        
+                <div class="card__back">
+                  <a href="groups.html">
+                    <button class="button">JOIN</button>
+                  </a>
+                  <p class="card__body">
+                    Minecraft is a “block game” where players move around a space and
+                    build blocks using a mining metaphor.
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+            <!--<div class="card">
+              <div class="card__content">
+                <div class="card6__front">
+                  <h3 class="card__title"></h3>
+                  <p class="card__subtitle"></p>
+                </div>
+        
+                <div class="card__back">
+                  <a href="groups.html">
+                    <button class="button">JOIN</button>
+                  </a>
+                  <p class="card__body">
+                    Cyberpunk 2077 is an open-world, action-adventure story set in
+                    Night City, a megalopolis obsessed with power, glamour and body
+                    modification.
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="card__content">
+                <div class="card7__front">
+                  <h3 class="card__title">god of war</h3>
+                  <p class="card__subtitle"></p>
+                </div>
+        
+                <div class="card__back">
+                  <a href="groups.html">
+                    <button class="button">JOIN</button>
+                  </a>
+                  <p class="card__body">
+                    This would be some longer text that gives a description of the
+                    things from the other side I guess
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="card__content">
+                <div class="card8__front">
+                  <h3 class="card__title">pub-g</h3>
+                  <p class="card__subtitle"></p>
+                </div>
+        
+                <div class="card__back">
+                  <a href="groups.html">
+                    <button class="button">JOIN</button>
+                  </a>
+                  <p class="card__body">
+                    This would be some longer text that gives a description of the
+                    things from the other side I guess
+                  </p>
+                </div>
+              </div>
+            </div>
+        
+            <div class="card">
+              <div class="card__content">
+                <div class="card9__front">
+                  <h3 class="card__title"></h3>
+                  <p class="card__subtitle"></p>
+                </div>
+        
+                <div class="card__back">
+                  <a href="groups.html">
+                    <button class="button">JOIN</button>
+                  </a>
+                  <p class="card__body">
+                    This would be some longer text that gives a description of the
+                    things from the other side I guess
+                  </p>
+                </div>
+              </div>
+            </div>-->
+          </div>
+
+        <div class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img class="img-responsive" src="images/footer-logo.png" alt="Logo"></a>
+                            </div>
+                            <div class="copyright">
+                                <p>&copy; 2023 Go Painting <a href="#">Terms & conditions</a> | <a href="#">Privacy Policy</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <div class="footer-widget">
+                            <h3>Quick Link</h3>
+                            <ul class="tr-list">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <!--<li><a href="#">Pricing</a></li>-->
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--<div class="col-sm-2">
+                        <div class="footer-widget">
+                            <h3>CONTACT US</h3>
+                            <ul class="tr-list">
+                                <li><a href="#">Connect with us</a></li>
+                                <li><a href="#">Stand with us</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Send Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>-->
+
+                    <div class="col-sm-2">
+                        <div class="footer-widget">
+                            <h3>Social Network</h3>
+                            <ul class="tr-list">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Google Plus</a></li>
+                                <li><a href="#">Linkdin</a></li>
+                                <li><a href="#">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.footer-section -->
+
+               <!-- JS -->
+               <script src="js/jquery.min.js"></script>
+               <script src="js/bootstrap.min.js"></script>
+               <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+               <script src="js/slick.min.js"></script>   
+               <script src="js/jquery.sidr.min.js"></script> 
+               <script src="js/magnific-popup.min.js"></script> 
+               <script src="js/cubeportfolio.min.js"></script> 
+               <script src="js/jquery.nav.js"></script>
+               <script src="js/theia-sticky-sidebar.js"></script>
+               <script src="js/switcher.js"></script>
+               <script src="js/main.js"></script>
+               <script>
+                 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       
+                 ga('create', 'UA-73239902-1', 'auto');
+                 ga('send', 'pageview');
+       
+               </script> 
+           </body>
+</html>
