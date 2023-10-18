@@ -227,18 +227,19 @@ button {
   top: 0;
   width: 100%;
   z-index: 1000; /* High z-index to make sure it stays on top of other elements */
-  background-color: #d3d3d3;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-color: #ffffff;
+  box-shadow: 0 6px 12px #ffffff5f
 }
 
 .navbar-brand {
-  font-size: 24px;
-  color: #000;
+  font-size: 30px;
+  color: #fffffff1;
 }
 
 .navbar-nav {
   text-transform: uppercase;
   list-style-type: none;
+  color: rgb(255, 255, 255);
 }
 
 .nav-item {
@@ -1309,7 +1310,7 @@ span.title {
 .footer-section {
   background-image: url(../images/bg/footer-one.jpg);
   color: #000;
-  background-color: #7ab700;
+  background-color: #a5a7a3;
   background-repeat: repeat;
   padding: 70px 0 50px;
   overflow: hidden;
@@ -1631,20 +1632,23 @@ input,
 
 }
 
+.grid-portfolio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+  width: 100%;
+}
 
 .card {
   width: 390px;
   margin-top: 10rem;
   margin-left: 10rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 1px;
 }
 
 .card__content {
   text-align: center;
   position: relative;
-  padding: 15em 5em;
+  padding: 24rem;
   transition: transform 1.5s;
   transform-style: preserve-3d;
 }
@@ -1717,16 +1721,16 @@ input,
 }
 
 /*-----GRID LAYOUT---*/
-.grid {
+/*.grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(12);
   grid-gap: 10px;
-}
+}*/
 
-/*--RESPONSIVE RULES
+/*--RESPONSIVE RULES--*/
 @media screen and (max-width: 1250px) {
-  .grid {
+  .grid-portfolio {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 5rem;
@@ -1734,12 +1738,12 @@ input,
 }
 
 @media screen and (max-width: 900px) {
-  .grid {
+  .grid_portfolio {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 5rem;
   }
-}--*/
+}
 
 /*------CARD 2----*/
 
