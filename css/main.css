@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Tilt Neon", sans-serif;
   font-weight: 400;
   padding-top: 20px; /* This will adjust according to the height of the navbar */
   color: #000;
@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Tilt Neon", sans-serif;
   font-weight: normal;
   font-weight: 700;
 }
@@ -46,7 +46,7 @@ button {
   border-radius: 0;
   padding: 20px;
   border: 1px solid #ececec;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Tilt Neon", sans-serif;
 }
 
 .tr-homepage .form-control:focus {
