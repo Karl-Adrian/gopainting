@@ -2004,3 +2004,20 @@ input,
   transform: var(--level-one);
 }
 
+/* footer logo */
+.foot-logo{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.foot-logo:hover {
+  box-shadow: 0 0 2px 1px #7ab700;
+}
+
+/* social media icons on Navbar */
+.head-social{
+  display:flex;
+  justify-content:between;
+}
