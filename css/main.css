@@ -2004,12 +2004,13 @@ input,
   transform: var(--level-one);
 }
 
-/* footer logo */
+/* partner images */
 .foot-logo{
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+  max-width: 100%;
+  height: auto;
 }
 
 .foot-logo:hover {
@@ -2020,4 +2021,9 @@ input,
 .head-social{
   display:flex;
   justify-content:between;
+}
+
+.go-logo {
+  padding: 5px;
+  width: 150px;
 }
