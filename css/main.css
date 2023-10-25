@@ -1632,17 +1632,20 @@ input,
 
 }
 
-.grid-portfolio {
+
+/* Portfolio 2  card CSS */
+/* .grid-portfolio { 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1px;
-  width: 100%;
-}
+  max-width: 100%;
+  height: auto;
+} */
 
 .card {
-  width: 390px;
   margin-top: 10rem;
   margin-left: 10rem;
+ 
 }
 
 .card__content {
