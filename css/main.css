@@ -354,7 +354,7 @@ button {
 }
 
 .home-content h1 {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 800;
   margin: 0 0 50px;
   text-transform: uppercase;
@@ -394,7 +394,7 @@ button {
 }
 
 .item .overlay {
-  background-color: #353535;
+  background-color: #45454500;
 }
 
 .item.item-overlay-color .overlay {
@@ -507,6 +507,7 @@ button {
   font-size: 14px;
   line-height: 22px;
   max-width: 200px;
+  margin-left:80px ;
 }
 
 .service-content .btn.btn-default {
