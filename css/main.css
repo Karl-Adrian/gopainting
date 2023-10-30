@@ -1635,24 +1635,26 @@ input,
 
 
 /* Portfolio 2  card CSS */
-/* .grid-portfolio { 
+.grid-portfolio { 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1px;
   max-width: 100%;
   height: auto;
-} */
+}
 
 .card {
-  margin-top: 10rem;
-  margin-left: 10rem;
+  /* margin-top: 10rem;
+  margin-left: 10rem; */
+  max-width: 100%;
+  height: auto;
  
 }
 
 .card__content {
   text-align: center;
   position: relative;
-  padding: 24rem;
+  padding: 12rem;
   transition: transform 1.5s;
   transform-style: preserve-3d;
 }
@@ -1725,12 +1727,12 @@ input,
 }
 
 /*-----GRID LAYOUT---*/
-/*.grid {
+/* .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(12);
   grid-gap: 10px;
-}*/
+} */
 
 /*--RESPONSIVE RULES--*/
 @media screen and (max-width: 1250px) {
@@ -2023,8 +2025,8 @@ input,
 
 /* social media icons on Navbar */
 .head-social{
-  display:flex;
-  justify-content:between;
+  width: 50px;
+  height: 50px;
 }
 
 .go-logo {
