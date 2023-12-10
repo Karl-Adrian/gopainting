@@ -33,11 +33,11 @@ body {
   }
   
   body .gallery-cards  .cards:nth-child(2) .box .content a {
-    background: #;
+    background: #7ab700;
   }
   
   body .gallery-cards .cards:nth-child(3) .cards-box .cards-content a {
-    background: #23c186;
+    background: #7ab700;
   }
   
   body .gallery-cards .cards .cards-box {
@@ -47,6 +47,7 @@ body {
     right: 20px;
     bottom: 20px;
     background: #2a2b2f;
+    background-image: url("/images/highgrove\ 12.jpg");
     border-radius: 15px;
     display: flex;
     justify-content: center;
