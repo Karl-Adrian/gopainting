@@ -1,4 +1,9 @@
 /*Gallery CSS*/
+.interior-page {
+  background-image: url(../images/interior\ background\ 1.jpg);
+  opacity: 0.5;
+  
+}
 .container {
     width: 100%;
     min-height: 100vh;
