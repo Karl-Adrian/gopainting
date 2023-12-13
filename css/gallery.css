@@ -1,6 +1,7 @@
 /*Gallery CSS*/
 .interior-page {
   background-image: url(../images/interior\ background\ 1.jpg);
+  background-size: cover;
   opacity: 0.5;
   
 }
