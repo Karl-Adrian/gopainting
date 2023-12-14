@@ -19,6 +19,7 @@ body {
   body .gallery-cards .cards {
     position: relative;
     min-width: 320px;
+    background-color: #ebebeb;
     height: 440px;
     box-shadow: inset 5px 5px 5px rgba(10, 10, 10, 0.2),
       inset -5px -5px 15px rgba(255, 255, 255, 0.1),
@@ -47,6 +48,7 @@ body {
     right: 20px;
     bottom: 20px;
     background: #34353b;
+    /* background-image:url(../images/interior\ background\ 1.jpg); */
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -114,5 +116,26 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
     background: #fff;
     color: #7ab700;
+  }
+
+  body .gallery-cards .cards .card1 {
+    background-image:url(../images/interior\ background\ 1.jpg);
+    background-size: cover;
+  }
+  body .gallery-cards .cards .card2 {
+    background-image:url(../images/exterior\ back\ 1.jpg);
+    background-size: cover;
+  }
+  body .gallery-cards .cards .card3 {
+    background-image:url(../images/Epoxy\ 5.jpg);
+    background-size: cover;
+  }
+  body .gallery-cards .cards .card4 {
+    background-image:url(../images/microcement\ bckground\ 1.jpg);
+    background-size: cover;
+  }
+  body .gallery-cards .cards .card5 {
+    background-image:url(../images/Dulux-4L-Design-Concrete-Effect-Paint.jpg);
+    background-size: cover;
   }
   

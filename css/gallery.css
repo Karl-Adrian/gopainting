@@ -1,8 +1,9 @@
 /*Gallery CSS*/
-.interior-page {
-  background-image: url(../images/interior\ background\ 1.jpg);
-  opacity: 0.5;
-  
+.wrapper1 {
+    background-color: rgba(255,255,255,0.2);
+    background-image:url(../images/interior\ background\ 2.jpg);
+    background-blend-mode:lighten;
+    background-size: cover;
 }
 .container {
     width: 100%;
@@ -15,7 +16,7 @@
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, fr)); /*fr */
     grid-gap: 15px;  /* Reduced gap */
 }
 
