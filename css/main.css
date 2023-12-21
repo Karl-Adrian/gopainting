@@ -1311,7 +1311,7 @@ span.title {
 .footer-section {
   background-image: url();
   color: #000;
-  background-color: #eeeeeeb4;
+  background-color: #d6d6d6b4;
   background-repeat: repeat;
   padding: 70px 0 50px;
   overflow: hidden;
@@ -1657,4 +1657,18 @@ input,
 .go-logo {
   padding: 5px;
   width: 150px;
+}
+
+/* Form-Submit */
+.container-form {
+  border-style: dotted;
+  border-width: 2px
+}
+.col {
+  border-style: solid;
+  border-width: 1px
+}
+.form-group {
+  border-style: solid;
+  border-width: 1px
 }
