@@ -319,6 +319,10 @@ button {
 .item-grid-2 .fa-twitter {
   color: #cd486b;
 }
+.fa-whatsapp:hover,
+.item-grid-2 .fa-twitter {
+  color: #128c7e;
+}
 
 
 .fa-google-plus:hover,
@@ -1661,8 +1665,7 @@ input,
 
 /* Form-Submit */
 .container-form {
-  border-style: dotted;
-  border-width: 2px
+  border-width: 0rem;
 }
 .col {
   border-style: solid;
