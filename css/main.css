@@ -45,7 +45,7 @@ button {
   box-shadow: none;
   border-radius: 0;
   padding: 20px;
-  border: 1px solid #ececec;
+  border: 2px solid #000000;
   font-family: "Tilt Neon", sans-serif;
 }
 
@@ -1667,14 +1667,7 @@ input,
 .container-form {
   border-width: 0rem;
 }
-.col {
-  border-style: solid;
-  border-width: 1px
-}
-.form-group {
-  border-style: solid;
-  border-width: 1px
-}
+.form-control
 
 /* More Details Buttons on homepage */
 .btn-details {
